@@ -241,11 +241,8 @@ export default {
   methods: {
     //初始化中国地图
     initEchartMap() {
-      console.log(echarts,'echarts');
       let mapDiv = document.getElementById("china_map");
-      console.log(mapDiv,'mapDiv');
       const myChart = echarts.init(mapDiv);
-      console.log(456);
       myChart.setOption(this.options);
     },
     //修改echart配制
