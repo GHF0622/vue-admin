@@ -255,7 +255,6 @@ export default {
   },
   mounted() {
     this.$nextTick(() => {
-      console.log(12);
       this.initEchartMap();
     });
   },
