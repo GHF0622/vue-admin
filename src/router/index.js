@@ -49,7 +49,28 @@ export const constantRoutes = [
       meta: { title: '首页', icon: 'el-icon-s-help' }
     }]
   },
-
+  
+  {
+    path: '/jsArray',
+    component: Layout,
+    redirect: '/js/jsArray',
+    name: 'Js',
+    meta: { title: '常用js方法', icon: 'el-icon-suitcase-1' },
+    children: [
+      {
+        path: 'jsArray',
+        name: 'jsArray',
+        component: () => import('@/views/js-project/array'),
+        meta: { title: 'js数组操作', icon: 'icon-yanse' }
+      },
+      {
+        path: 'jsString',
+        name: 'jsString',
+        component: () => import('@/views/js-project/string'),
+        meta: { title: 'js常用字符串操作', icon: 'icon-yanse' }
+      },
+    ]
+  },
   {
     path: '/tools',
     component: Layout,
