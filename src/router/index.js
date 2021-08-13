@@ -49,7 +49,7 @@ export const constantRoutes = [
       meta: { title: '首页', icon: 'el-icon-s-help' }
     }]
   },
-  
+
   {
     path: '/jsArray',
     component: Layout,
@@ -96,7 +96,6 @@ export const constantRoutes = [
         component: () => import('@/views/tools/json'),
         meta: { title: 'json格式化', icon: 'icon-jsonfile' }
       }
-      
     ]
   },
   {
@@ -111,26 +110,26 @@ export const constantRoutes = [
         name: 'testHome',
         component: () => import('@/views/test/index'),
         meta: { title: '說明', icon: 'el-icon-document' }
-      },      
+      },
       {
         path: 'test',
         name: 'test',
         component: () => import('@/views/test/test'),
         meta: { title: '日常測試', icon: 'el-icon-view' }
-      }, 
+      },
       {
         path: 'slot',
         name: 'slot',
         component: () => import('@/views/test/slot/index'),
         meta: { title: 'slot', icon: 'el-icon-sunny' }
-      }, 
+      },
       {
         path: 'infiniteScroll',
         name: 'infiniteScroll',
         component: () => import('@/views/test/infiniteScroll'),
         meta: { title: '无缝无限滚动', icon: 'el-icon-magic-stick' }
-      }, 
-      
+      },
+
     ]
   },
   // 404 page must be placed at the end !!!

@@ -1,79 +1,67 @@
 <template>
   <div class="infiniteScroll">
-    <div data-v-6a32e916="" class="logo_wrap">
-      <div data-v-6a32e916="" class="line_odd">
+    <div class="logo_wrap">
+      <div class="line_odd">
         <img
-          data-v-6a32e916=""
           src="https://lhcdn.lanhuapp.com/home/img/logo_one.png"
           alt=""
           class="logo_img"
         /><img
-          data-v-6a32e916=""
           src="https://lhcdn.lanhuapp.com/home/img/logo_one.png"
           alt=""
           class="logo_img"
         />
       </div>
-      <div data-v-6a32e916="" class="line_even">
+      <div class="line_even">
         <img
-          data-v-6a32e916=""
           src="https://lhcdn.lanhuapp.com/home/img/logo_two.png"
           alt=""
           class="logo_img"
         /><img
-          data-v-6a32e916=""
           src="https://lhcdn.lanhuapp.com/home/img/logo_two.png"
           alt=""
           class="logo_img"
         />
       </div>
-      <div data-v-6a32e916="" class="line_odd">
+      <div class="line_odd">
         <img
-          data-v-6a32e916=""
           src="https://lhcdn.lanhuapp.com/home/img/logo_three.png"
           alt=""
           class="logo_img"
         /><img
-          data-v-6a32e916=""
           src="https://lhcdn.lanhuapp.com/home/img/logo_three.png"
           alt=""
           class="logo_img"
         />
       </div>
-      <div data-v-6a32e916="" class="line_even">
+      <div class="line_even">
         <img
-          data-v-6a32e916=""
           src="https://lhcdn.lanhuapp.com/home/img/logo_four.png"
           alt=""
           class="logo_img"
         /><img
-          data-v-6a32e916=""
           src="https://lhcdn.lanhuapp.com/home/img/logo_four.png"
           alt=""
           class="logo_img"
         />
       </div>
-      <div data-v-6a32e916="" class="line_odd">
+      <div class="line_odd">
         <img
-          data-v-6a32e916=""
           src="https://lhcdn.lanhuapp.com/home/img/logo_five.png"
           alt=""
           class="logo_img"
         /><img
-          data-v-6a32e916=""
           src="https://lhcdn.lanhuapp.com/home/img/logo_five.png"
           alt=""
           class="logo_img"
         />
       </div>
-      <div data-v-6a32e916="" class="line_even">
+      <div class="line_even">
         <img
-          data-v-6a32e916=""
           src="https://lhcdn.lanhuapp.com/home/img/logo_six.png"
           alt=""
           class="logo_img"
         /><img
-          data-v-6a32e916=""
           src="https://lhcdn.lanhuapp.com/home/img/logo_six.png"
           alt=""
           class="logo_img"

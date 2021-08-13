@@ -10,7 +10,11 @@
       </template>
 
       <template slot-scope="user">
-        <div v-for="(item, index) in user.data" :key="index" @click="clickSolt(item,index)">
+        <div
+          v-for="(item, index) in user.data"
+          :key="index"
+          @click="clickSolt(item, index)"
+        >
           {{ item }}
         </div>
       </template>
@@ -26,10 +30,10 @@ export default {
   components: {
     slotTmp,
   },
-  methods:{
-    clickSolt(e,index){
-      console.log(e,'e',index,'index');
-    }
-  }
+  methods: {
+    clickSolt(e, index) {
+      console.log(e, "e", index, "index");
+    },
+  },
 };
 </script>
