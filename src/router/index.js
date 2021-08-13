@@ -122,13 +122,13 @@ export const constantRoutes = [
         path: 'slot',
         name: 'slot',
         component: () => import('@/views/test/slot/index'),
-        meta: { title: 'slot', icon: 'el-icon-view' }
+        meta: { title: 'slot', icon: 'el-icon-sunny' }
       }, 
       {
         path: 'infiniteScroll',
         name: 'infiniteScroll',
         component: () => import('@/views/test/infiniteScroll'),
-        meta: { title: '无缝无限滚动', icon: 'el-icon-view' }
+        meta: { title: '无缝无限滚动', icon: 'el-icon-magic-stick' }
       }, 
       
     ]
