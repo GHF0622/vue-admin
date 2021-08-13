@@ -118,6 +118,12 @@ export const constantRoutes = [
         component: () => import('@/views/test/test'),
         meta: { title: '日常測試', icon: 'el-icon-view' }
       }, 
+      {
+        path: 'slot',
+        name: 'slot',
+        component: () => import('@/views/test/slot/index'),
+        meta: { title: 'slot', icon: 'el-icon-view' }
+      }, 
     ]
   },
   // 404 page must be placed at the end !!!
